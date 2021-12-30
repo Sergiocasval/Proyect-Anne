@@ -2,3 +2,44 @@
     margin: 0;
     padding: 0;
 }
+
+header{
+   
+
+}
+
+.container{
+  
+    padding-top: 30px;
+    background-color: gray;
+    height: 300px;
+}
+.pic{
+    width: 30%;
+}
+
+.hr{
+    
+}
+#header-list{
+    background-color: aqua;
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    
+}
+
+.blog{
+    background-color: pink;
+    display: flex;
+}
+
+img{
+    
+    max-width: 300px;
+}
+.pics{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
