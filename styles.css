@@ -6,16 +6,19 @@
 
 
 header{
+   
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: 45px;
     background-color: #ea9598;
     align-items: center;
     gap: 30px;
+    font-size: larger;
 }
 #header-img{
    
     width: 30px;
+    
 }
 
 #div1{
@@ -30,7 +33,7 @@ header{
     color: white;
 }
 .header-hover:hover{
-    color: black;
+    color: rgb(77, 3, 80);
 }
 #div2{
     display: flex;
@@ -39,6 +42,65 @@ header{
     gap: 20px;
 }
 
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 350px;
+    object-fit: cover;
+    height: fit-content;
+    
+}
+.container-left{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    background-color: #c79eaf;
+    text-align: right;
+    /* opacity: 50%;     */
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    display: inline-flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-items: left;
+    font-size: 15px;
+    
+    
+}
+.email{
+    top: 20px;
+    display: flex;
+    justify-items: right;
+    
+    gap: 30px;
+    /* margin-top: 20px; */
+    border-radius: 15px;
+    
+}
+
+h1{
+    
+    font-size: 70px;
+}
+h2{
+    font-family: 'Waterfall', cursive;
+    font-size:35px ;
+}
+.container-right{
+ background-color: #ea9598;
+    
+}
+.img-container{
+    
+    width: 20%;
+    object-fit: cover;
+    height: 100%;
+    border: 2px solid black;
+   position: relative;
+    left:45%;
+    
+}
 
 #registro{
     text-decoration: none;
@@ -48,7 +110,7 @@ header{
     background-color: white;
 }
 #registro:hover{
-   color: black;
+   color: rgb(77, 3, 80);
     border: 2px solid white;
     border-radius: 20%;
     
@@ -57,23 +119,33 @@ header{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     background-color: rgba(252, 246, 246, 0.932);
+    align-items: center;
+    justify-items: center;
 }
 .imagen{
   
     padding: 15%;
     width: 100%;
     object-fit: cover;
-
+   
+  
 }
-
+hr{
+   
+    background-color: rgba(252, 246, 246, 0.932);
+}
 .misc{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    background-color: rgba(252, 246, 246, 0.932);
 }
 .imagen2{
-    width: 100%;
-    padding: 10%;
+    width: 90%;
+   
+    padding: 15%;
     object-fit: cover;
+    
+    
 }
 
 footer{
@@ -89,7 +161,10 @@ footer{
     text-decoration: none;
     color: white;
     font-size: 20px;
+    height: 30px;
+    
 }
 .footer:hover{
     color: black;
+    
 }
