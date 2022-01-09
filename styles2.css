@@ -71,6 +71,9 @@ header{
 }
 
 /*               ACCESORIOS            */
+.txt-img{
+    display: none;
+}
 .accesorios-container{
     width: 100%;
     position: relative;
@@ -132,6 +135,12 @@ input{
 input::placeholder{
     text-align: center;
 }
+input{
+border-color: rgb(230, 218, 218);
+border-radius: 5px;
+}
+
+
 
 /*          MASCARILLA           */
 .mascarilla-container{
@@ -175,3 +184,8 @@ h2{
     /* border-bottom: 1px solid white; */
     border: 1px solid white;
 }
+
+.p{
+    border: 1px solid white;
+}
+
